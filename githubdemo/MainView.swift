@@ -9,5 +9,5 @@ import Foundation
 
 
 func print() {
-    print("Hello world")
+    print("Hello worlds")
 }
