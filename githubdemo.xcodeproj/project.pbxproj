@@ -13,6 +13,8 @@
 		171FEF5E29CB76990026DEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171FEF5C29CB76990026DEA9 /* Main.storyboard */; };
 		171FEF6029CB769A0026DEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171FEF5F29CB769A0026DEA9 /* Assets.xcassets */; };
 		171FEF6329CB769A0026DEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171FEF6129CB769A0026DEA9 /* LaunchScreen.storyboard */; };
+		171FEF6B29CB77B20026DEA9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FEF6A29CB77B20026DEA9 /* MainView.swift */; };
+		171FEF6D29CB7A150026DEA9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FEF6C29CB7A150026DEA9 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		171FEF5F29CB769A0026DEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171FEF6229CB769A0026DEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171FEF6429CB769A0026DEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171FEF6A29CB77B20026DEA9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		171FEF6C29CB7A150026DEA9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				171FEF5F29CB769A0026DEA9 /* Assets.xcassets */,
 				171FEF6129CB769A0026DEA9 /* LaunchScreen.storyboard */,
 				171FEF6429CB769A0026DEA9 /* Info.plist */,
+				171FEF6A29CB77B20026DEA9 /* MainView.swift */,
+				171FEF6C29CB7A150026DEA9 /* SecondView.swift */,
 			);
 			path = githubdemo;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				171FEF5B29CB76990026DEA9 /* ViewController.swift in Sources */,
+				171FEF6D29CB7A150026DEA9 /* SecondView.swift in Sources */,
+				171FEF6B29CB77B20026DEA9 /* MainView.swift in Sources */,
 				171FEF5729CB76990026DEA9 /* AppDelegate.swift in Sources */,
 				171FEF5929CB76990026DEA9 /* SceneDelegate.swift in Sources */,
 			);
